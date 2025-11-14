@@ -1,0 +1,76 @@
+name: atlaswinplace
+description: "place"
+publish_to: 'none'
+
+# Версионирование приложения:
+# Android: versionName=1.0.0, versionCode=1 (см. Version your app, Android Dev)
+# iOS: CFBundleShortVersionString=1.0.0, CFBundleVersion=1 (см. Core Foundation Keys)
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  flutter_inappwebview: ^6.0.0-beta.18
+  flutter_riverpod: ^2.4.0
+  flutter_bloc: ^8.1.2
+  provider: ^6.1.2
+
+  # Device/secure
+  flutter_secure_storage: ^9.0.0
+  package_info_plus: ^8.3.0
+  device_info_plus: ^10.1.0
+  timezone: ^0.9.2
+  app_tracking_transparency: ^2.0.4
+  appsflyer_sdk: ^6.11.0
+
+  # Firebase (обновлено до 3.x — совместимо с web/platform_interface и geolocator 13)
+  firebase_core: ^3.15.0
+  firebase_messaging: ^15.0.0
+
+  # Utils
+  connectivity_plus: ^5.0.2
+  logger: ^2.2.0
+  shared_preferences: ^2.3.2
+  http: ^1.2.2
+  url_launcher: ^6.3.0
+  image_picker: ^1.1.2
+  image: ^4.2.0
+  path_provider: ^2.1.4
+  geolocator: ^13.0.1
+  intl: ^0.19.0
+  fl_chart: ^0.69.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets (см. Adding assets and images — указывать каталог/файлы с правильными отступами)
+  assets:
+
+    - assets/images/beautiful-coastal-landscape.jpg
+    - assets/images/centralpark.jpg
+    - assets/images/crystal_fountain.jpg
+    - assets/images/desert_oasis.jpg
+    - assets/images/golden_bridge.jpg
+    - assets/images/historic_plaza.jpg
+    - assets/images/maountain.jpg
+    - assets/images/mountain-range.jpg
+    - assets/images/mountain_temple.jpg
+    - assets/images/niagara.jpg
+    - assets/images/secret_cave.jpg
+    - assets/images/sunstone_pinnacle.jpg
+    - assets/images/whispering_falls.png
+    - assets/images/testimonial_1.png
+    - assets/images/testimonial_2.png
+    - assets/images/testimonial_3.png
