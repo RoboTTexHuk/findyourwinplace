@@ -693,7 +693,7 @@ class MainViewState extends State<MainView> with WidgetsBindingObserver {
                             print("JS args: $args");
                             print("From the JavaScript side:");
                             print("ResRes${args[0]['savedata']}");
-                            if (args[0]['savedata'].toString() != "false" && mounted) {
+                            if (args[0]['savedata'].toString() == "false" && mounted) {
 
 
 
